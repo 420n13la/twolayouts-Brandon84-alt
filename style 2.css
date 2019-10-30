@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans' sans-serif;
+	font-weight: 400;
+	height: 100px;
+
+}
+
+.container {
+	width: 100%;
+	margin: 10px auto;
+	
+}
+
+header {
+	background: #55d6aa;
+	padding: 80px;
+	height: 1px;
+	position: fixed;
+	top: 0;
+  	width: 100%;	
+}
+
+
+.logo {
+	float: left;
+	padding: 1px;
+	width: 190px;
+	height: 180px;
+	border-radius: 30%;
+	
+	
+
+
+}
+
+nav {
+	float: right;
+
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 20px;
+
+
+}
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 25px;
+}
+
+img {
+ 	border-color: whitesmoke;
+ 	padding: 60px;
+ 	border-style: solid;
+}
+
+nav a {
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+h1 { font-family: cursive; 
+	height: 100px;
+}
+
+.team-section {
+	overflow: hidden;
+	text-align: center;
+	background: lightblue;
+	padding: 60px;
+	border-radius: 5%;
+	border-style: inset;
+	border-width: 5px
+	background-color: red;
+}
+.team-section h1{
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	color: white;
+	font-size:  40px;
+}
+
+    
+
+
+}
+.section {
+	width: 600px;
+	margin: auto;
+	font-size: 20px;
+	color: white;
+	text-align: center; 
+}
+.name {
+	display: block;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 22px;
+
+}
+
+.container2 img{
+	width: 40%;
+    height: 40%;
+    border-radius: 50%;
+  } 
+
+footer {
+	height: 50px;
+}
+
+
