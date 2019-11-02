@@ -97,7 +97,7 @@ h1 { font-family: cursive; }
 
 .ps img {
 	width: 100%
-	filter: grayscale(100%);
+	filter: whitesmoke(100%);
 	transition: 0.4s all;
 
 }
